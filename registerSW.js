@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/NimbusFax-PWA-Preview/sw.js', { scope: '/NimbusFax-PWA-Preview/' })})}
